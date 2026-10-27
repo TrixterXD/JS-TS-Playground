@@ -10,6 +10,8 @@
         "format": "biome format --write .",
         "typecheck": "tsc -b",
         "exercise": "tsx",
+        "new-exercise": "tsx scripts/create-exercise.ts",
+        "test:scaffold": "tsx --test scripts/create-exercise.test.ts",
         "preview": "vite preview"
     },
     "dependencies": {
