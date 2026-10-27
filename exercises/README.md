@@ -16,6 +16,18 @@ Work through **01 → 10 in order**, then attempt the Boss Fight. Read each `PRO
 | `10`                | Quest Progress System                  | 4/5        | Independent decomposition, intermediate data, progress contracts |
 | `boss-quest-engine` | Quest Engine                           | 5/5        | Type-safe operations, immutable state, validation, progression   |
 
+## Creating another exercise
+
+Use the reusable generator rather than writing another scaffolding script:
+
+```sh
+npm run new-exercise -- 11 "Array Practice"
+```
+
+This creates `11-array-practice/PROBLEM.md`, `index.ts`, and `index.test.ts`. It only creates templates: author the actual problem statement, test scenarios, sample data, expected outputs, and function signature separately. The test placeholder deliberately fails until real behavioral tests replace it. Existing numbers and directories are rejected, and student work is not overwritten.
+
+Before authoring content, read [the exercise guidelines](../docs/EXERCISE_GUIDELINES.md) and [the learning profile](../docs/learning-profile/README.md). Add a task to the learning sequence only once its content is ready.
+
 ## Files and workflow
 
 - `index.ts` (or `index.js` for 08 and 09): public types/JSDoc, unsolved functions, sample data, expected output comments.
