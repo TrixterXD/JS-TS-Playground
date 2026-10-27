@@ -1,0 +1,54 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+*.tsbuildinfo
+coverage/
+.cache/
+.vite/
+
+# Environment files, credentials, and private keys
+.env*
+.npmrc
+.netrc
+.git-credentials
+*.pem
+*.key
+*.p12
+*.pfx
+credentials*.json
+secrets*.json
+service-account*.json
+auth.json
+auth.json.*
+.ssh/
+.aws/
+.azure/
+.config/gh/
+
+# Local AI sessions, configuration, and authentication
+.pi/
+.claude/
+.codex/
+.opencode/
+.aider*
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
